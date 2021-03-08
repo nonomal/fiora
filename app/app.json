@@ -21,6 +21,10 @@
     },
     "updates": {
       "enabled": false
+    },
+    "packagerOpts": {
+      "projectRoots": "",
+      "config": "rn-cli.config.js"
     }
   }
 }

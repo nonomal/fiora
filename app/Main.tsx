@@ -21,6 +21,7 @@ import UserInfo from './pages/UserInfo/UserInfo';
 import ChatListRightButton from './pages/ChatList/ChatListRightButton';
 import SearchResult from './pages/SearchResult/SearchResult';
 import GroupInfo from './pages/GroupInfo/GroupInfo';
+import { getRandomColor } from '../utils/getRandomColor';
 
 type Props = {
     title: string;
@@ -31,6 +32,8 @@ type Props = {
 function Main({ title, primaryColor, isLogin }: Props) {
     const primaryColor10 = `rgba(${primaryColor}, 1)`;
     const primaryColor8 = `rgba(${primaryColor}, 0.8)`;
+
+    console.log('==>', getRandomColor('123'));
 
     return (
         <View style={styles.container}>

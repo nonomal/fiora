@@ -6,12 +6,23 @@ coverage/
 .idea/
 .linaria-cache/
 
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 .eslintcache
 ecosystem.config.js
-
 
 .env
 deploy.sh
 .qiniurc
+
+# expo
+.expo/
+.expo-shared/
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

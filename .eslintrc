@@ -52,6 +52,10 @@
         "no-plusplus": 0,
         "no-script-url": 0,
         "no-underscore-dangle": 0,
+        "no-use-before-define": [
+            "error",
+            { "functions": true, "classes": true, "variables": false }
+        ],
         "object-curly-newline": 0,
         "react/jsx-filename-extension": [
             2,
@@ -67,6 +71,7 @@
         "react-hooks/rules-of-hooks": 2,
         "react-hooks/exhaustive-deps": 0,
         "react/require-default-props": [2, { "ignoreFunctionalComponents": true }],
-        "import/prefer-default-export": 0
+        "import/prefer-default-export": 0,
+        "consistent-return": "off"
     }
 }
